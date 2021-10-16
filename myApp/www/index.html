@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Service Robot Customer Experience Form</title>
+
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Page title -->
+    <header><h1>Service Robot Customer Experience Form</h1></header>
+    
+    <!-- Main form content -->
+    <h2>Please tell us about your experience shopping at our store below.</h2>
+    <h2>By completing this form, we will reduce your store bill by 10%.</h2>
+    <form id="formContainer">
+        <!-- First and last name input -->
+        <div class="row">
+          <div class="col">
+            <label for="firstName">First Name:</label>
+            <input id="lastName" type="text" class="form-control" placeholder="Enter Your First Name" required>
+          </div>
+
+          <div class="col">
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="text" class="form-control" placeholder="Enter Your Last Name" required>
+          </div>
+        </div>
+
+        <!-- Email address input -->
+        <div class="form-group">
+            <label for="exampleInputEmail">Email Address:</label>
+            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else except the NSA.</small>
+        </div>
+
+        <!-- Personal URL -->
+        <div class="form-group">
+            <label for="personalURL">Personal URL:</label>
+            <input id="personalURL" type="url" class="form-control" placeholder="Enter Your Personal URL (e.g. LinkedIn Profile)" required>
+        </div>
+
+        <!-- Date of birth -->
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth (yyyy-mm-dd):</label>
+            <input id="dateOfBirth" type="date" class="form-control" required>
+        </div>
+
+        <!-- Gender -->
+        <p>Please choose your gender:</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="maleGender" value="Male" checked>
+            <label class="form-check-label" for="maleGender">
+              Male
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="femaleGender" value="Female">
+            <label class="form-check-label" for="femaleGender">
+                Female
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="otherGender" value="Other">
+            <label class="form-check-label" for="otherGender">
+                Other
+            </label>
+        </div>
+
+        <!-- Reasons for shopping at the store -->
+        <p>Why did you shop at our store? Please choose all that apply:</p>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="goodProductsServices">
+            <label class="form-check-label" for="goodProductsServices">
+                I like the store's products/services
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="closestStore">
+            <label class="form-check-label" for="closestStore">
+                This was the closest store
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="storeRecommended">
+            <label class="form-check-label" for="storeRecommended">
+                This store was recommended to me
+            </label>
+        </div>
+        <div class="col">
+            <label for="otherReason">Other Reason(s):</label>
+            <input id="otherReason" type="text" class="form-control" placeholder="Enter Other Reason(s)">
+        </div>
+
+        <!-- Store improvements -->
+        <p>How can we improve? Please choose all that apply:</p>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="offerBetterProductServices">
+            <label class="form-check-label" for="offerBetterProductServices">
+                Offer better products/services
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="offerCheaperPrices">
+            <label class="form-check-label" for="offerCheaperPrices">
+                Offer cheaper prices
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="offerBetterStoreHours">
+            <label class="form-check-label" for="offerBetterStoreHours">
+                Offer more flexible store hours
+            </label>
+        </div>
+        <div class="col">
+            <label for="otherReason">Other Improvement(s):</label>
+            <input id="otherReason" type="text" class="form-control" placeholder="Enter Other Improvement(s)">
+        </div>
+
+        <!-- Rating -->
+        <p>Please rate your experience from 1 to 5 (where 1 is a terrible and 5 is a great experience):</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience1" value="1" checked>
+            <label class="form-check-label" for="rateExperience1">
+                1
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience2" value="2">
+            <label class="form-check-label" for="rateExperience2">
+                2
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience3" value="3">
+            <label class="form-check-label" for="rateExperience3">
+                3
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience4" value="4">
+            <label class="form-check-label" for="rateExperience4">
+                4
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience5" value="5" checked>
+            <label class="form-check-label" for="rateExperience5">
+                5
+            </label>
+        </div>
+
+        <div class="col">
+            <label for="otherComments">Other Comment(s):</label>
+            <input id="otherComments" type="text" class="form-control" placeholder="Did you want to tell us more about your experience?">
+        </div>
+
+        <!-- Verification checkbox -->
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">I verify that the above data is fictitious.</label>            
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <br/><br/><br/>
+
+      <!-- Clear form button -->
+      <button id="clearAllButton" type="submit" class="btn btn-primary">Clear All</button>
+
+      <script>
+            // Define the DOM element for the form
+            var form = document.getElementById("formContainer");
+
+            // Define the DOM element for the clear all button
+            var clearAllButton = document.getElementById("clearAllButton");
+
+            // Add an event listener to the form
+            form.addEventListener('submit', function(event) {
+                // Prevent default event behaviours
+                event.preventDefault();
+
+                // Alert the user of a successful form submission
+                window.alert("Thank you for submitting your responses!");
+
+                // Reload the page to reset the form
+                location.reload();
+            });
+
+            clearAllButton.addEventListener('submit', function(event){
+                // Reload the page to reset the form
+                location.reload();
+            });
+      </script>
+    </body>
+</html>
