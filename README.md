@@ -25,6 +25,8 @@
 <a name="task1"/>
 
 1. **Setting up your development environment and background story. Install a free mobile emulator/simulator (e.g., Android SDK emulator, the Opera Mobile emulator, etc.) for this course.**
+
+Here is a screenshot of a locally-installed smartphone emulator (in [Android Studio](https://developer.android.com/studio)):
 <img width="1437" alt="Screen Shot 2021-10-15 at 10 52 36 PM" src="https://user-images.githubusercontent.com/80941606/137570951-2be7b5a7-ce4f-4894-b6df-8c29f9103587.png">
 
 2. **Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.**
@@ -75,7 +77,7 @@ Since PhoneGap has been discontinued, here is a QR code for accessing the deploy
 
 ![qrcode_jaspreetkhela github io](https://user-images.githubusercontent.com/80941606/137572578-3c43ed59-3b66-4922-b2ac-bf3c733c299f.png)
 
-Here is a screenshot of the application running on an Android device emulator:
+Here is a screenshot of the application running on an Android device emulator (in [Android Studio](https://developer.android.com/studio)):
 <img width="1437" alt="Screen Shot 2021-10-16 at 12 40 51 AM" src="https://user-images.githubusercontent.com/80941606/137574022-e0921f53-4687-474e-9342-166ebd268ed0.png">
 
 ### Installation
