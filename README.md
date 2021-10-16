@@ -48,15 +48,15 @@
 
 **HTML5-Validated Form**
 
-1. **Design and create an HTML5-validated form with the following fields:
-	* email address
-	* personal URL
-	* year of birth (numeric increments or calendar)
-	* gender (radio button)
-	* comments (text area)
-	* “Clear All” button
-	* checkbox to confirm that the data entered are fictitious. 
-Make sure that the form layout and design should be compliant with your story.**
+1. **Design and create an HTML5-validated form with the following fields:**
+	* **email address**
+	* **personal URL**
+	* **year of birth (numeric increments or calendar)**
+	* **gender (radio button)**
+	* **comments (text area)**
+	* **“Clear All” button**
+	* **checkbox to confirm that the data entered are fictitious.**
+**Make sure that the form layout and design should be compliant with your story.**
 
 To view the form, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/).
 
