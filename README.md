@@ -1,18 +1,9 @@
 # Cloud-Based Service Robot for In-Store Feedback
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Description**: 
 
 **Deployment Link**: https://jaspreetkhela.github.io/service-robot/
-
-# Employee Tracker
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**Description**: This is a employee tracker content management system (CMS) Node.js application that runs using the Command Line Interface. This application allows the user to interface with a MySQL database that contains information about an organization's employees. This application steamlines the database management process so that users can focus on the content of the database while the application's back-end processes take care of the database reading/writing and displaying information processes.
-
-**Deployment Link**: Please see [installation](#installation) instructions below.
-
-**Video Tutorial Links**:
-- https://drive.google.com/file/d/1Rwx1WqbLii7AYiAewLEHN-RJ7F4QOZB9/view
 
 ## Table of Contents
 * [Task 1-1](#task1)
