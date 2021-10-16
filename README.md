@@ -1,7 +1,7 @@
 # Cloud-Based Service Robot for In-Store Feedback
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Description**: This is an HTML5 form that collected information a customer's in-store experience when the customer is checking out of the store.
+**Description**: This is an HTML5 form that collects information a customer's in-store experience when the customer is checking out of the store.
 
 **Deployment Link**: https://jaspreetkhela.github.io/service-robot/
 
