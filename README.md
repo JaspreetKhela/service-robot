@@ -23,23 +23,26 @@
 
 ### Task 1-1
 <a name="task1"/>
+
 1. Setting up your development environment and background story. Install a free mobile emulator/simulator (e.g., Android SDK emulator, the Opera Mobile emulator, etc.) for this course.
 	1. [Add Screenshot]
+
 2. Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.
-	- The cloud-connected service robot that I would like to build will provide customers of a brick-and-mortar store to provide customer experience feedback immediately after shopping at that store with benefit of receiving a monetary reward that is proportional to the size of their bill. Consequently, the store owners will  be able to receive immediate feedback from customers and directly follow-up on that feedback in-person, and the customers will be able to save money by reducing their bill by a non-trivial percentage (e.g. 10%).
-	- The robot will be setup on a tablet computer in-store and can be downloaded on a user's smartphone through scanning a QR code at a point-of-sales machine (i.e. cash register). It will contain an HTML5 form that contains the following input fields:
-		- A text field for the customer's first and last name
-		- A email text field for a customer's email
-		- A url text field for a customer's personal URL (i.e. Linkedin URL for recruitment purposes)
-		- A date field for the customers's date of birth
-		- A radio button list for a customer's gender
-		- A checkbox list for choosing reasons for shopping at a particular store
-		- A checkbox list for choosing areas of improvement for the store
-		- An radio button list for rating their customer experience
-		- A text field for additional comments about the customer's experience
-		- A "Submit" for submitting the form data and clearing the form
-	- The form can be filled out prior to checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to the tablet (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The txt file can then be imported in spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
-	- A future development of direction could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This unstructured steam of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
+* The cloud-connected service robot that I would like to build will provide customers of a brick-and-mortar store to provide customer experience feedback immediately after shopping at that store with benefit of receiving a monetary reward that is proportional to the size of their bill. Consequently, the store owners will  be able to receive immediate feedback from customers and directly follow-up on that feedback in-person, and the customers will be able to save money by reducing their bill by a non-trivial percentage (e.g. 10%).
+* The robot will be setup on a tablet computer in-store and can be downloaded on a user's smartphone through scanning a QR code at a point-of-sales machine (i.e. cash register). It will contain an HTML5 form that contains the following input fields:
+	* A text field for the customer's first and last name
+	* A email text field for a customer's email
+	* A url text field for a customer's personal URL (i.e. Linkedin URL for recruitment purposes)
+	* A date field for the customers's date of birth
+	* A radio button list for a customer's gender
+	* A checkbox list for choosing reasons for shopping at a particular store
+	* A checkbox list for choosing areas of improvement for the store
+	* An radio button list for rating their customer experience
+	* A text field for additional comments about the customer's experience
+	* A "Submit" for submitting the form data and clearing the form
+* The form can be filled out prior to checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to the tablet (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The txt file can then be imported in spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
+	
+* A future development of direction could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This unstructured steam of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
 
 ### Task 1-2
 <a name="task2"/>
