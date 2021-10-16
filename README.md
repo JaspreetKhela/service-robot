@@ -96,6 +96,8 @@ This application allows a customer to enter responses to form questions.
 
 This application uses the following front-end technologies:
 * HTML5
+* CSS
+* JavaScript
 * Bootstrap CSS Library
 
 ### Testing
