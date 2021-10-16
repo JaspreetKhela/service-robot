@@ -26,7 +26,7 @@
 
 1. **Setting up your development environment and background story. Install a free mobile emulator/simulator (e.g., Android SDK emulator, the Opera Mobile emulator, etc.) for this course.**
 
-Here is a screenshot of a locally-installed smartphone emulator (in [Android Studio](https://developer.android.com/studio)):
+Here is a screenshot of a locally-installed Android device emulator (in [Android Studio](https://developer.android.com/studio)):
 <img width="1437" alt="Screen Shot 2021-10-15 at 10 52 36 PM" src="https://user-images.githubusercontent.com/80941606/137570951-2be7b5a7-ce4f-4894-b6df-8c29f9103587.png">
 
 2. **Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.**
@@ -77,14 +77,14 @@ Since PhoneGap has been discontinued, here is a QR code for accessing the deploy
 
 ![qrcode_jaspreetkhela github io](https://user-images.githubusercontent.com/80941606/137572578-3c43ed59-3b66-4922-b2ac-bf3c733c299f.png)
 
-Here is a screenshot of the application running on an Android device emulator (in [Android Studio](https://developer.android.com/studio)):
+Here is a screenshot of the application running natively on an Android device emulator (in [Android Studio](https://developer.android.com/studio)):
 <img width="1437" alt="Screen Shot 2021-10-16 at 12 40 51 AM" src="https://user-images.githubusercontent.com/80941606/137574022-e0921f53-4687-474e-9342-166ebd268ed0.png">
 
 ### Installation
 To use this application, please visit the deployment link above. To test this application on an Android device emulator, please visit this [Cordova Apache guide](https://cordova.apache.org/docs/en/10.x/guide/cli/) to install all of the depedencies required to run this application on your machine.
 
 ### Usage
-To use this application, please visit the deployment link above.
+To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/).
 
 **Screenshots**:
 ![Screen Shot 2021-10-15 at 10 36 59 PM (2)](https://user-images.githubusercontent.com/80941606/137570433-7451d498-6f1c-498a-8e17-d3aa9e5a0684.png)
@@ -94,7 +94,7 @@ To use this application, please visit the deployment link above.
 ### Features
 This application allows a customer to enter responses to form questions.
 
-This application uses the following technologies:
+This application uses the following front-end technologies:
 * HTML5
 * Bootstrap CSS Library
 
