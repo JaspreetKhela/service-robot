@@ -13,39 +13,43 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>Service Robot Customer Experience Form</h1>
-    <p>Please tell us about your experience shopping at our store below. By completing this form, we will reduce your store bill by 10%.</p>
-    <form>
+    <!-- Page title -->
+    <header><h1>Service Robot Customer Experience Form</h1></header>
+    
+    <!-- Main form content -->
+    <h2>Please tell us about your experience shopping at our store below.</h2>
+    <h2>By completing this form, we will reduce your store bill by 10%.</h2>
+    <form id="formContainer">
         <!-- First and last name input -->
         <div class="row">
           <div class="col">
             <label for="firstName">First Name:</label>
-            <input id="lastName" type="text" class="form-control" placeholder="First Name">
+            <input id="lastName" type="text" class="form-control" placeholder="First Name" required>
           </div>
 
           <div class="col">
             <label for="lastName">Last Name:</label>
-            <input id="lastName" type="text" class="form-control" placeholder="Last Name">
+            <input id="lastName" type="text" class="form-control" placeholder="Last Name" required>
           </div>
         </div>
 
         <!-- Email address input -->
         <div class="form-group">
             <label for="exampleInputEmail">Email Address:</label>
-            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email">
+            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email" required>
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
 
         <!-- Personal URL -->
-        <div class="col">
+        <div class="form-group">
             <label for="personalURL">Personal URL:</label>
-            <input id="personalURL" type="url" class="form-control" placeholder="Personal URL">
+            <input id="personalURL" type="url" class="form-control" placeholder="Personal URL" required>
         </div>
 
         <!-- Date of birth -->
-        <div class="col">
-            <label for="dateOfBirth">Date of Birth (YYYY/MM/DD):</label>
-            <input id="dateOfBirth" type="date" class="form-control" placeholder="YYYY/MM/DD">
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth (yyyy-mm-dd):</label>
+            <input id="dateOfBirth" type="date" class="form-control" placeholder="YYYY/MM/DD" required>
         </div>
 
         <!-- Gender -->
@@ -128,19 +132,19 @@
             </label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience2" value="2" checked>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience2" value="2">
             <label class="form-check-label" for="rateExperience2">
                 2
             </label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience3" value="3" checked>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience3" value="3">
             <label class="form-check-label" for="rateExperience3">
                 3
             </label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience4" value="4" checked>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="rateExperience4" value="4">
             <label class="form-check-label" for="rateExperience4">
                 4
             </label>
@@ -159,12 +163,29 @@
 
         <!-- Verification checkbox -->
         <div class="form-check">
-            <label class="form-check-label" for="exampleCheck1">I verfiy that the data above is fictitious.</label>
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">            
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">I verfiy that the above data is fictitious.</label>            
         </div>
 
         <!-- Submit button -->
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+
+      <script>
+            // Define the DOM element for the form
+            var form = document.getElementById("formContainer");
+
+            // Add an event listener to the form
+            form.addEventListener('submit', function(event) {
+                // Prevent default event behaviours
+                event.preventDefault();
+
+                // Alert the user of a successful form submission
+                window.alert("Thank you for submitting your responses!");
+
+                // Reload the page to reset the form
+                location.reload();
+            });
+      </script>
 </body>
 </html>
