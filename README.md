@@ -87,9 +87,9 @@ To use this application, please visit the [deployment link](https://jaspreetkhel
 To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/).
 
 **Screenshots**:
-![Screen Shot 2021-10-16 at 2 32 04 AM (2)](https://user-images.githubusercontent.com/80941606/137576608-5cd9ddf2-e19d-498e-a0a3-c3373feed261.png)
-![Screen Shot 2021-10-16 at 2 32 12 AM (2)](https://user-images.githubusercontent.com/80941606/137576611-655eac7d-5c34-434d-9dfc-5ecd93d51bc9.png)
-![Screen Shot 2021-10-16 at 2 32 19 AM (2)](https://user-images.githubusercontent.com/80941606/137576612-be94260b-8ea3-4e7b-a7a0-73c166373f6a.png)
+![Screen Shot 2021-10-16 at 2 36 10 AM (2)](https://user-images.githubusercontent.com/80941606/137576694-fef5e15e-25c9-49d4-a5a8-aa3a9cf91c57.png)
+![Screen Shot 2021-10-16 at 2 36 15 AM (2)](https://user-images.githubusercontent.com/80941606/137576698-25f5b344-0be0-4f17-a920-bf375ba518b7.png)
+![Screen Shot 2021-10-16 at 2 36 21 AM (2)](https://user-images.githubusercontent.com/80941606/137576699-dd16eedd-85ad-4cfd-a4d5-54481b602d13.png)
 
 ### Features
 This application allows a customer to enter responses to form questions.
