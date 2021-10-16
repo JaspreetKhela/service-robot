@@ -21,9 +21,8 @@
 
 ## Assignment Details
 
-<a name="task1"/>
 ### Task 1-1
-
+<a name="task1"/>
 1. Setting up your development environment and background story. Install a free mobile emulator/simulator (e.g., Android SDK emulator, the Opera Mobile emulator, etc.) for this course.
 	1. [Add Screenshot]
 2. Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.
@@ -42,13 +41,13 @@
 	- The form can be filled out prior to checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to the tablet (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The txt file can then be imported in spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
 	- A future development of direction could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This unstructured steam of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
 
-<a name="task2"/>
 ### Task 1-2
+<a name="task2"/>
 **HTML5-Validated Form**
 1. Design and create an HTML5-validated form with the following fields: (1) email address, (2) personal URL, (3) year of birth (numeric increments or calendar), (4) gender (radio button), (5) comments (text area), (6) a “Clear All” button, and (7) a checkbox to confirm that the data entered are fictitious. Make sure that the form layout and design should be compliant with your story.
 
-<a name="task3"/>
 ### Task 1-3
+<a name="task3"/>
 **Using PhoneGap Build**
 1. Create a PhoneGap Build account (http://build.phonegap.com/ (Links to an external site.)). To do this you will need to sign up using an Adobe Creative Cloud account. [Update on September 30: Adobe is discontinuing this service on October 1, 2020. https://blog.phonegap.com/update-for-customers-using-phonegap-and-phonegap-build-cc701c77502c (Links to an external site.) Thus, you can Google any software tool online which can do this task "Automatic convert HTML5 to Android App" for this question.]
 2. Turn the HTML5 page of this assignment (Task 1-2) into a native Android app using PhoneGap or other software tools you chose.
