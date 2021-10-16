@@ -171,9 +171,17 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
+      <br/><br/><br/>
+
+      <!-- Clear form button -->
+      <button id="clearAllButton" type="submit" class="btn btn-primary">Clear All</button>
+
       <script>
             // Define the DOM element for the form
             var form = document.getElementById("formContainer");
+
+            // Define the DOM element for the clear all button
+            var clearAllButton = document.getElementById("clearAllButton");
 
             // Add an event listener to the form
             form.addEventListener('submit', function(event) {
@@ -183,6 +191,11 @@
                 // Alert the user of a successful form submission
                 window.alert("Thank you for submitting your responses!");
 
+                // Reload the page to reset the form
+                location.reload();
+            });
+
+            clearAllButton.addEventListener('submit', function(event){
                 // Reload the page to reset the form
                 location.reload();
             });
