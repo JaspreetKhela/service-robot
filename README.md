@@ -1,7 +1,7 @@
 # Cloud-Based Service Robot for In-Store Feedback
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Description**: 
+**Description**: This is an HTML5 form that collected information a customer's in-store experience when the customer is checking out of the store.
 
 **Deployment Link**: https://jaspreetkhela.github.io/service-robot/
 
@@ -25,7 +25,7 @@
 <a name="task1"/>
 
 1. **Setting up your development environment and background story. Install a free mobile emulator/simulator (e.g., Android SDK emulator, the Opera Mobile emulator, etc.) for this course.**
-
+<img width="1437" alt="Screen Shot 2021-10-15 at 10 52 36 PM" src="https://user-images.githubusercontent.com/80941606/137570951-2be7b5a7-ce4f-4894-b6df-8c29f9103587.png">
 
 2. **Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.**
 * The cloud-connected service robot that I would like to build will provide customers of a brick-and-mortar store to provide customer experience feedback immediately after shopping at that store with benefit of receiving a monetary reward that is proportional to the size of their bill. Consequently, the store owners will  be able to receive immediate feedback from customers and directly follow-up on that feedback in-person, and the customers will be able to save money by reducing their bill by a non-trivial percentage (e.g. 10%).
@@ -56,6 +56,7 @@
 	* **comments (text area)**
 	* **“Clear All” button**
 	* **checkbox to confirm that the data entered are fictitious.**
+
 **Make sure that the form layout and design should be compliant with your story.**
 
 To view the form, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/).
@@ -82,6 +83,10 @@ To use this application, please visit the deployment link above.
 
 ### Features
 This application allows a customer to enter responses to form questions.
+
+This application uses the following technologies:
+* HTML5
+* Bootstap CSS Library
 
 ### Testing
 This application can be directly tested in the Command Line Interface by using it.
