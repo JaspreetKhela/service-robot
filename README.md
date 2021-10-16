@@ -1,4 +1,4 @@
-# Cloud-Based Service Robot for In-Store Feedback
+# Service Robot Application for In-Store Feedback Using a Form
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Description**: This is an HTML5 form that collects information on a customer's in-store experience when the customer is checking out of the store. This allows the store to recieve immediate in-person feedback on the customer's shopping experience and the customer to reduce his/her bill amount by a non-trivial percentage (e.g. 10% off of his/her bill).
@@ -87,9 +87,9 @@ To use this application, please visit the [deployment link](https://jaspreetkhel
 To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/).
 
 **Screenshots**:
-![Screen Shot 2021-10-15 at 10 36 59 PM (2)](https://user-images.githubusercontent.com/80941606/137570433-7451d498-6f1c-498a-8e17-d3aa9e5a0684.png)
-![Screen Shot 2021-10-15 at 10 37 05 PM (2)](https://user-images.githubusercontent.com/80941606/137570436-23fd33c9-45aa-4993-879d-98ab1b3c33bb.png)
-![Screen Shot 2021-10-15 at 10 37 13 PM (2)](https://user-images.githubusercontent.com/80941606/137570437-dcfe399b-9f1e-4ba6-9744-ad904379ffe7.png)
+![Screen Shot 2021-10-16 at 2 32 04 AM (2)](https://user-images.githubusercontent.com/80941606/137576608-5cd9ddf2-e19d-498e-a0a3-c3373feed261.png)
+![Screen Shot 2021-10-16 at 2 32 12 AM (2)](https://user-images.githubusercontent.com/80941606/137576611-655eac7d-5c34-434d-9dfc-5ecd93d51bc9.png)
+![Screen Shot 2021-10-16 at 2 32 19 AM (2)](https://user-images.githubusercontent.com/80941606/137576612-be94260b-8ea3-4e7b-a7a0-73c166373f6a.png)
 
 ### Features
 This application allows a customer to enter responses to form questions.
