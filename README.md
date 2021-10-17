@@ -21,8 +21,9 @@
 
 ## Assignment Details
 
-### Task 1-1
 <a name="task1"/>
+
+### Task 1-1
 
 1. **Setting up your development environment and background story. Install a free mobile emulator/simulator (e.g., Android SDK emulator, the Opera Mobile emulator, etc.) for this course.**
 
@@ -46,8 +47,9 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 * The form can be filled out prior to the customer checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to a Zenbo robot or a tablet/smartphone (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The .txt file can then be imported into spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
 * A future direction of development could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This stream of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
 
-### Task 1-2
 <a name="task2"/>
+
+### Task 1-2
 
 **HTML5-Validated Form**
 
@@ -64,8 +66,9 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 
 To view the form, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/).
 
-### Task 1-3
 <a name="task3"/>
+
+### Task 1-3
 
 **Using PhoneGap Build**
 
