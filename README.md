@@ -9,6 +9,10 @@
 * [Task 1-1](#task1)
 * [Task 1-2](#task2)
 * [Task 1-3](#task3)
+* [Task 2-1](#task4)
+* [Task 2-2](#task5)
+* [Task 2-3](#task6)
+* [Task 2-4](#task7)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Features](#features)
@@ -82,6 +86,53 @@ Since PhoneGap has been discontinued, here is a QR code for accessing the deploy
 
 Here is a screenshot of the application running natively on an Android device emulator (in [Android Studio](https://developer.android.com/studio)):
 <img width="1437" alt="Screen Shot 2021-10-16 at 12 40 51 AM" src="https://user-images.githubusercontent.com/80941606/137574022-e0921f53-4687-474e-9342-166ebd268ed0.png">
+
+<a name="task4"/>
+
+### Task 2-1
+
+**prefix-free**
+
+Use prefix-free (http://leaverou.github.io/prefixfree/) in your web site to provide vendor-specific prefixes for two CSS3 features (e.g., cursors https://css3clickchart.com/?prop=cursors or border images https://css3clickchart.com/?prop=border-image).
+
+The following prefix-free capabilities were added to the CSS of the form (in addition to the <script> tag in the index.html file):
+<img width="1246" alt="Screen Shot 2021-11-12 at 9 47 08 PM" src="https://user-images.githubusercontent.com/80941606/141603217-340582d3-5094-4b7b-b6e0-2edd5d4f0f69.png">
+
+<a name="task5"/>
+
+### Task 2-2
+
+**Modernizr**
+
+Go to http://modernizr.com/download/ and select the detect that allows you to show a progress meter as the user enters the information on the form (Assignment 1). You don’t need to actually show a meter; just check for compatibility. Add a detect for geolocation which you will need for Assignment 3. Use Modernizr to check for features availability and provide a gracious fallback.
+
+The progress and the geolocation api Modernizr capabilities were added to the CSS of the form (in addition to the <script> tag in the index.html file):
+<img width="1245" alt="Screen Shot 2021-11-12 at 9 47 26 PM" src="https://user-images.githubusercontent.com/80941606/141603175-7b823ab9-8db9-4a76-9bd8-75244da724bc.png">
+	
+Note that the form does not display a progress bar at this time.
+
+<a name="task6"/>
+
+### Task 2-3
+
+**CSS Media Queries**
+
+Use CSS media queries to deliver different content depending on the device’s orientation. For example, you may change the background colour depending on the orientation, or change the text of an element, or even hide some content.
+
+The following CSS media queries were added to the form:
+<img width="1244" alt="Screen Shot 2021-11-12 at 9 47 38 PM" src="https://user-images.githubusercontent.com/80941606/141603129-685cbcb4-b604-4d60-9aef-5902420a9b58.png">
+
+<a name="task7"/>
+
+### Task 2-4
+
+**Block Coding**
+
+Referring to your story about Zenbo for the course project in Assignment 1, coding a related scenario by Zenbo Lab as a mockup demo. In the demo, Zenbo Junior should show at least facial expression, conversation, body movement/language, and the colour on the LED light. The length of your demo should not take more than 60 seconds. 
+We will discuss this Zenbo Lab in the online session on November 17: https://zenbolab.asus.com/editor/zenbo.html?lang=en
+
+The Zenbo Lab file (i.e. service-robot-znebo-lab.zba) in this repository is comprised of the following actions:
+![Screen Shot 2021-11-12 at 9 42 25 PM (2)](https://user-images.githubusercontent.com/80941606/141603085-330db338-d365-44fd-8431-c59904065c8a.png)
 
 ### Installation
 To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/). To test this application on an Android device emulator, please visit this [Cordova Apache guide](https://cordova.apache.org/docs/en/10.x/guide/cli/) to install all of the depedencies required to run this application on your machine. Once all of the application's dependencies are installed, in your command-line interface, run `cordova build` and then `cordova run --emulator`. The application is will launch in your default Android device emulator.
