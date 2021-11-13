@@ -58,6 +58,7 @@ label, p {
 
 .no-geolocation .box { color: red; }
 .geolocation .box { color: green; }
+/* End of the Modernizr plugin example */
 
 /* CSS media queries */
 @media only screen and (max-width: 600px) {
@@ -77,3 +78,4 @@ label, p {
         background-color: lightgreen;
     }
 }
+/* End of CSS media queries */
