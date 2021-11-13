@@ -25,10 +25,55 @@ form {
     margin-right: auto;
     text-align: left;
     padding: 2%;
-    background-color:oldlace;
-    border: 1px solid
+    background-color: lightblue;
+    border: 1px solid;
 }
+
+/* -prefix-free plugin examples of CSS elements that require a prefix to work */
+.linear {
+    background-image: linear-gradient(
+      to right, #ff867a 0%, #ff8c7f 21%,
+      #f99185 52%, #cf556c 78%, #b12a5b 100%
+    );
+  }
+
+::selection {
+    background: purple;
+    color: hotpink;
+}
+  
+::-moz-selection {
+    background: purple;
+    color: hotpink;
+}
+/* End of the -prefix-free plugin example */
 
 label, p {
     font-weight: bold;
+}
+
+/* Modernizr plugin classes for the progress element and the geolocation API */
+.no-progressbar,meter .box { color: red; }
+.progressbar,meter .box { color: green; }
+
+.no-geolocation .box { color: red; }
+.geolocation .box { color: green; }
+
+/* CSS media queries */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media (orientation: landscape) {
+    form {
+        background-color: lightcoral;
+    }
+}
+
+@media (orientation: portrait) {
+    form {
+        background-color: lightseagreen;
+    }
 }
