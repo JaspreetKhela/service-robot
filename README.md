@@ -13,6 +13,9 @@
 * [Task 2-2](#task5)
 * [Task 2-3](#task6)
 * [Task 2-4](#task7)
+* [Task 3-1](#task8)
+* [Task 3-2](#task9)
+* [Task 3-3](#task10)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Features](#features)
@@ -133,6 +136,35 @@ We will discuss this Zenbo Lab in the online session on November 17: https://zen
 
 The Zenbo Lab file (i.e. service-robot-znebo-lab.zba) in this repository is comprised of the following actions:
 ![Screen Shot 2021-11-12 at 9 42 25 PM (2)](https://user-images.githubusercontent.com/80941606/141603085-330db338-d365-44fd-8431-c59904065c8a.png)
+
+<a name="task8"/>
+
+### Task 3-1
+**Using Geolocation and Maps**
+
+Include a “See my location” button that shows a map centered at the device’s location. If location services are turned off, do not have permissions, or geolocation is not available to ask the user for the Province (or Territory) where they currently are (assume the user is in Canada). Based on the location present the following information to the user (e.g., you): name of the province, name of the Premier for that province, one or two links to attractions for people the same age as the user, and the Provincial tax. Handle errors (and fallback) by providing a Google static map centered at the province’s Parliament. Use Google’s Closure Compiler (http://closure-compiler.appspot.com (Links to an external site.)) to compress your JavaScript code (if any).
+
+Please see the deployment link above for the completion of this task.
+
+<a name="task9"/>
+
+### Task 3-2
+
+**Implementing Gestures with Hammer.js**
+
+Implement two of the following gestures using Hammer (http://hammerjs.github.io/ (Links to an external site.)): rotate, pinch, pan, or swipe. Include instructions as to what happens in your webpage when the user performs the gesture. Use Google’s Closure Compiler to compress your JavaScript code.
+
+Please see the deployment link above for the completion of this task. When the user pinches the screen in or out, the webpage zooms in or out, respectively. When the user swipes up or down, the webpage moves up or down, respectively.
+
+<a name="task10"/>
+
+### Task 3-3
+
+**Implementing Device Interaction API**
+
+Implement two of the following JavaScript APIs for device interaction: battery status, vibration, and media caption through the device’s camera. Use Google’s Closure Compiler to compress your JavaScript code. Handle fallbacks graciously.
+
+Please see the deployment link above for the completion of this task. I implemented the battery status and image capture browser APIs.
 
 ### Installation
 To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/). To test this application on an Android device emulator, please visit this [Cordova Apache guide](https://cordova.apache.org/docs/en/10.x/guide/cli/) to install all of the depedencies required to run this application on your machine. Once all of the application's dependencies are installed, in your command-line interface, run `cordova build` and then `cordova run --emulator`. The application is will launch in your default Android device emulator.
