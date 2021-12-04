@@ -19,7 +19,25 @@
     <!-- Main form content -->
     <h2>Please tell us about your experience shopping at our store below.</h2>
     <h2>By completing this form, we will reduce your store bill by 10%.</h2>
-    
+    <br><br>
+    <h2 ><a href="assets/pages/geolocation.html">View Your Location</a></h2>
+    <button id="coordinates" type="click" class="btn btn-primary">Find Your Coordinates</button>
+    <br><br>
+    <h3 id="geolocation"></h3>
+    <br><br>
+    <h3 id="province-name"></h3>
+    <h3 id="province-premier"></h3>
+    <h3 id="province-attractions"></h3>
+    <h3 id="province-tax"></h3>
+    <br><br>
+    <h3 id="battery-charging"></h3>
+    <h3 id="battery-level"></h3>
+    <h3 id="battery-charging-time"></h3>
+    <h3 id="battery-discharging-time"></h3>
+    <br><br>
+    <h3>For in-store assistance, please click the following button (which will vribrate the device):</h3>
+    <button id="vibration-button" type="click" class="btn btn-primary">Help Request</button>
+
     <!-- <div class="progressbar"></div> -->
     
     <form id="formContainer">
@@ -209,5 +227,17 @@
 
       <!-- Modernizr plugin script -->
       <script src="./assets/js/modernizr-custom.js"></script>
+
+      <!-- Geolocation script -->
+      <script src="./assets/js/geolocation.min.js"></script>
+
+      <!-- Hammer.js script -->
+      <script src="./assets/js/hammer.min.js"></script>
+
+      <!-- Battery status script -->
+      <script src="./assets/js/battery.min.js"></script>
+
+      <!-- Vibration script -->
+      <script src="./assets/js/vibration.min.js"></script>
 </body>
 </html>
