@@ -144,7 +144,7 @@ The Zenbo Lab file (i.e. service-robot-znebo-lab.zba) in this repository is comp
 
 Include a “See my location” button that shows a map centered at the device’s location. If location services are turned off, do not have permissions, or geolocation is not available to ask the user for the Province (or Territory) where they currently are (assume the user is in Canada). Based on the location present the following information to the user (e.g., you): name of the province, name of the Premier for that province, one or two links to attractions for people the same age as the user, and the Provincial tax. Handle errors (and fallback) by providing a Google static map centered at the province’s Parliament. Use Google’s Closure Compiler (http://closure-compiler.appspot.com (Links to an external site.)) to compress your JavaScript code (if any).
 
-Please see the deployment link above for the completion of this task.
+Please see the deployment link above for the completion of this task. Note that the "...min.js" files are compressed JavaScript files.
 
 <a name="task9"/>
 
