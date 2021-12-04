@@ -35,10 +35,26 @@
     <h3 id="battery-charging-time"></h3>
     <h3 id="battery-discharging-time"></h3>
     <br><br>
-    <h3>For in-store assistance, please click on the following button (which will vibrate the device):</h3>
+    <h3>For in-store assistance, please click on the 'Get User Media' button and then on the 'Take Photo' button (which will take your photo so that a customer service representative can find you):</h3>
     <br>
-    <button id="vibration-button" type="click" class="btn btn-primary">Help Request</button>
-    <br><br>
+    <div id="results">
+        <div>
+            <button id="getUserMediaButton" type="click" class="btn btn-primary">Get User Media</button>
+            <br><br>
+            <video autoplay=""></video>
+        </div>
+        <div>
+            <button id="grabFrameButton" type="click" class="btn btn-primary">Grab Frame</button>
+            <br><br>
+            <canvas id="grabFrameCanvas"></canvas>
+        </div>
+        <div>
+            <button id="takePhotoButton" type="click" class="btn btn-primary">Take Photo</button>
+            <br><br>
+            <canvas id="takePhotoCanvas"></canvas>
+        </div>
+    </div>
+    <br>
 
     <!-- <div class="progressbar"></div> -->
     
@@ -240,6 +256,6 @@
       <script src="./assets/js/battery.min.js"></script>
 
       <!-- Vibration script -->
-      <script src="./assets/js/vibration.min.js"></script>
+      <script src="./assets/js/camera.min.js"></script>
 </body>
 </html>
