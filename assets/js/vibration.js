@@ -4,7 +4,7 @@ vibrationButton = document.getElementById("vibration-button");
 
 // Starts vibration at passed in level
 function startVibrate(duration) {
-    window.navigator.vibrate(duration);
+    window.navigator.vibrate() && window.navigator.vibrate(duration);
 }
 
 // Stops vibration
