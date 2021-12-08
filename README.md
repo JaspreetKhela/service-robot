@@ -3,6 +3,13 @@
 
 **Description**: This is an HTML5 form that collects information on a customer's in-store experience when the customer is checking out of the store. This allows the store to recieve immediate in-person feedback on the customer's shopping experience and the customer to reduce his/her bill amount by a non-trivial percentage (e.g. 10% off of his/her bill).
 
+**Key Current/Upcoming Features**:
+* The service will be setup on a Zenbo robot's screen or a tablet computer in-store and can be downloaded as a native application on a user's smartphone through scanning a QR code at a point-of-sales machine (i.e. cash register).
+* The HTML5 form automatically determines the store's and, consequently, the customer's location to assist corporate personnel in determining geographic differences in stores' performances.
+* The in-store customer's photo can be captured so that the customer can be more easily found by a service representative to address any of the customer's questions and/or concerns in real-time.
+* The content of the form can be saved locally to a Zenbo robot or a tablet/smartphone (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The .txt file can then be imported into spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
+* A future direction of development could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience.
+
 **Deployment Link**: https://jaspreetkhela.github.io/service-robot/
 
 ## Table of Contents
