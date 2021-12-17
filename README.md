@@ -190,7 +190,7 @@ Please see the deployment link above for the completion of this task. I implemen
 
 ### Course Project
 * [**Project URL**](https://jaspreetkhela.github.io/service-robot/)
-* [**Zenbo Story Description**](#task1)
+* [**Zenbo Story Description**](#task2)
 * **Zenbo .zba File**: Please see the 'service-robot-znebo-lab.zba' in this repository
 * **Feature Compatibility**:
   * **Feature 1**: [Mapbox Geocoding](https://docs.mapbox.com/api/search/geocoding/)
