@@ -61,6 +61,15 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 	* A "Clear All" button for clearing the form
 * The form can be filled out prior to the customer checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to a Zenbo robot or a tablet/smartphone (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The .txt file can then be imported into spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
 * A future direction of development could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This stream of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
+* The following additions were also made for the [Course Project](#course-project):
+  * The Zenbo robot would primarily be used to approach customers near the front of the store to address customers' questions/concerns about the store's products/services and to redirect customers to tablet computers at the front of the store to provide feedback on their shopping experience.
+  * Sample robot dialogue with the customer would include the following:
+    * "Hello! My name is Zenbo and I can help address any question or concerns that you may have regarding any of our products or services!"
+    * "If you are ready to purchase the items in your cart, follow me to the front of the store where you can provide us with feedback on your shopping experience and recieve 10% off of your bill!"
+    * "Would you like for me to find [insert a particular product's name provided by the customer] in-store? If so, we have 10 units of [insert a particular product] in stock! Please follow me to find your requested product!"
+    * "Would you like to talk to a service representitive? If so, let me connect you to one via video teleconferencing."
+  * The following references were used to justify this use case of the Zenbo robot:
+    * 
 
 <a name="task2"/>
 
@@ -217,30 +226,30 @@ Please see the deployment link above for the completion of this task. I implemen
     * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
     * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
     * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
-  * **Feature 7**:
-    * **Code Line Number**:
-    * **Description**:
-    * **Google Chrome Compatibility Comments**:
-    * **Safari Compatibility Comments**:
-    * **Firefox Compatibility Comments**:
-  * **Feature 8**:
-    * **Code Line Number**:
-    * **Description**:
-    * **Google Chrome Compatibility Comments**:
-    * **Safari Compatibility Comments**:
-    * **Firefox Compatibility Comments**:
-  * **Feature 9**:
-    * **Code Line Number**:
-    * **Description**:
-    * **Google Chrome Compatibility Comments**:
-    * **Safari Compatibility Comments**:
-    * **Firefox Compatibility Comments**:
-  * **Feature 10**:
-    * **Code Line Number**:
-    * **Description**:
-    * **Google Chrome Compatibility Comments**:
-    * **Safari Compatibility Comments**:
-    * **Firefox Compatibility Comments**:
+  * **Feature 7**: [Bootstrap Date Input](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
+    * **Code Line Number**: This feature can be found on line 114 in the 'index.html' file.
+    * **Description**: This feature allows the user to input his/her date of birth.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 8**: [Bootstrap Radio Button Input](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
+    * **Code Line Number**: This feature can be found on line 120 in the 'index.html' file.
+    * **Description**: This feature allows the user to input his/her gender and rate his/her experience at the store.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 9**: [Bootstrap Check Button Input](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
+    * **Code Line Number**: This feature can be found on line 141 in the 'index.html' file.
+    * **Description**: This feature allows the user to select reasons for why he/she shopped at the store and how the store can be improved.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 10**: [Bootstrap Text Input](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
+    * **Code Line Number**: This feature can be found on line 89 in the 'index.html' file.
+    * **Description**: This feature allows the user to input text for his/her name, email address, etc.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
 	
 ### Installation
 To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/). To test this application on an Android device emulator, please visit this [Cordova Apache guide](https://cordova.apache.org/docs/en/10.x/guide/cli/) to install all of the depedencies required to run this application on your machine. Once all of the application's dependencies are installed, in your command-line interface, run `cordova build` and then `cordova run --emulator`. The application is will launch in your default Android device emulator.
