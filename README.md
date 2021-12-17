@@ -23,6 +23,7 @@
 * [Task 3-1](#task8)
 * [Task 3-2](#task9)
 * [Task 3-3](#task10)
+* [Course Project](#course-project)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Features](#features)
@@ -173,6 +174,74 @@ Implement two of the following JavaScript APIs for device interaction: battery s
 
 Please see the deployment link above for the completion of this task. I implemented the battery status and image capture browser APIs.
 
+<a name="course-project"/>
+
+### Course Project
+* [**Project URL**](https://jaspreetkhela.github.io/service-robot/)
+* [**Zenbo Story Description**](#task1)
+* **Zenbo .zba File**: Please see the 'service-robot-znebo-lab.zba' in this repository
+* **Feature Compatibility**:
+  * **Feature 1**: [Mapbox Geocoding](https://docs.mapbox.com/api/search/geocoding/)
+    * **Code Line Number**: This feature can be found on line 107 in the 'geolocation.js' file.
+    * **Description**: This feature finds the user's location so that form data can be associated with a particular location for data analysis purposes.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 2**: [Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)
+    * **Code Line Number**: This feature can be found on line 27 in the 'battery.js' file
+    * **Description**: This feature provides the store's service personnel with additional information on the battery life of the tablet so that they can charge the tablet in a timely manner.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is not compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is not compatible in this browser.
+  * **Feature 3**: [ImageCapture API](https://developer.mozilla.org/en-US/docs/Web/API/ImageCapture)
+    * **Code Line Number**: This feature can be found on line 58 in the 'camera.js' file.
+    * **Description**: This feature allows users to submit their photo so that in-store service personnel can easily find them to address the users' questions and/or concerns.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is not compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is not compatible in this browser.
+  * **Feature 4**: [Modernnizr](https://modernizr.com/), http://mobilehtml5.org/
+    * **Code Line Number**: This feature can be found on line 3 in the 'modernizr-custom.js' file.
+    * **Description**: Modernizr is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in your user's browsers.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 5**: [Hammer.js](https://hammerjs.github.io/)
+    * **Code Line Number**: This feature can be found on line 6 in the 'hammer.min.js' file
+    * **Description**: This feature adds touch capabilities to the form for enhanced interaction capabilities on touch-enabled mobile devices.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 6**: [Bootstrap Form Container](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
+    * **Code Line Number**: Line 26 in the 'index.html' file
+    * **Description**: This form collects in-store user feedback so that retailers can improve their customers' shopping experiences.
+    * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
+    * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+  * **Feature 7**:
+    * **Code Line Number**:
+    * **Description**:
+    * **Google Chrome Compatibility Comments**:
+    * **Safari Compatibility Comments**:
+    * **Firefox Compatibility Comments**:
+  * **Feature 8**:
+    * **Code Line Number**:
+    * **Description**:
+    * **Google Chrome Compatibility Comments**:
+    * **Safari Compatibility Comments**:
+    * **Firefox Compatibility Comments**:
+  * **Feature 9**:
+    * **Code Line Number**:
+    * **Description**:
+    * **Google Chrome Compatibility Comments**:
+    * **Safari Compatibility Comments**:
+    * **Firefox Compatibility Comments**:
+  * **Feature 10**:
+    * **Code Line Number**:
+    * **Description**:
+    * **Google Chrome Compatibility Comments**:
+    * **Safari Compatibility Comments**:
+    * **Firefox Compatibility Comments**:
+	
 ### Installation
 To use this application, please visit the [deployment link](https://jaspreetkhela.github.io/service-robot/). To test this application on an Android device emulator, please visit this [Cordova Apache guide](https://cordova.apache.org/docs/en/10.x/guide/cli/) to install all of the depedencies required to run this application on your machine. Once all of the application's dependencies are installed, in your command-line interface, run `cordova build` and then `cordova run --emulator`. The application is will launch in your default Android device emulator.
 
