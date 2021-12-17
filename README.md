@@ -223,6 +223,7 @@ Please see the deployment link above for the completion of this task. I implemen
     * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
     * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
     * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
+**Note**: The following Bootstrap features are mobile-responsive.
   * **Feature 6**: [Bootstrap Form Container](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
     * **Code Line Number**: This feature can be found on line 26 in the 'index.html' file
     * **Description**: This form collects in-store user feedback so that retailers can improve their customers' shopping experiences.
