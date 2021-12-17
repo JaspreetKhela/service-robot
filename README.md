@@ -61,14 +61,14 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 	* A "Clear All" button for clearing the form
 * The form can be filled out prior to the customer checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to a Zenbo robot or a tablet/smartphone (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The .txt file can then be imported into spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
 * A future direction of development could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This stream of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
-* The following additions were also made for the [Course Project](#course-project):
+* The following additions were made for the [Course Project](#course-project):
   * The Zenbo robot would primarily be used to approach customers near the front of the store to address customers' questions/concerns about the store's products/services and to redirect customers to tablet computers at the front of the store to provide feedback on their shopping experience.
   * Sample robot dialogue with the customer would include the following:
-    * "Hello! My name is Zenbo and I can help address any question or concerns that you may have regarding any of our products or services!"
+    * "Hello! My name is Zenbo and I can help address any questions or concerns that you may have regarding any of our products or services!"
     * "If you are ready to purchase the items in your cart, follow me to the front of the store where you can provide us with feedback on your shopping experience and recieve 10% off of your bill!"
-    * "Would you like for me to find [insert a particular product's name provided by the customer] in-store? If so, we have 10 units of [insert a particular product] in stock! Please follow me to find your requested product!"
-    * "Would you like to talk to a service representitive? If so, let me connect you to one via video teleconferencing."
-  * The following references were used to justify this use case of the Zenbo robot:
+    * "Would you like for me to find [insert a particular product's name provided by the customer] in-store? If so, we have 10 units of [insert a particular product's name] in stock! Please follow me to find your requested product!"
+    * "Would you like to talk to a service representative? If so, let me connect you to one via video teleconferencing."
+  * The following references were used to justify the use case of the Zenbo robot as a retail social robot:
     * **Article**: C. Shi, S. Satake, T. Kanda and H. Ishiguro, "How would store managers employ social robots?," 2016 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI), 2016, pp. 519-520, doi: 10.1109/HRI.2016.7451835.
       * "We conducted a field study to investigate the social acceptance of social robots by stores, particularly for attracting passersby, which today's robots can autonomously perform. From interviews with ten store managers, we identified two main reasons they want to employ such social robots in their stores: robots offer cheap labor and provide unique value that humans cannot. They believe that robots are good at attracting the attention of visitors without causing or receiving stress. We also conducted three case studies in which we observed how store managers employed social robots in their stores. Each store manager requested different designs in the preparation phase. After deployment, we found that the managers were generally satisfied with the services autonomously offered by the robots, which successfully encouraged people to stop. For two out of three stores the robots successfully encouraged visitors to visit. The store managers were satisfied with the results and expressed a desire to use the robots again."
    * **Article**: Niemelä M., Heikkilä P., Lammi H., Oksman V. (2019) A Social Robot in a Shopping Mall: Studies on Acceptance and Stakeholder Expectations. In: Korn O. (eds) Social Robots: Technological, Societal and Ethical Aspects of Human-Robot Interaction. Human–Computer Interaction Series. Springer, Cham. https://doi.org/10.1007/978-3-030-17107-0_7
@@ -200,8 +200,8 @@ Please see the deployment link above for the completion of this task. I implemen
     * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
     * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
   * **Feature 2**: [Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)
-    * **Code Line Number**: This feature can be found on line 27 in the 'battery.js' file
-    * **Description**: This feature provides the store's service personnel with additional information on the battery life of the tablet so that they can charge the tablet in a timely manner.
+    * **Code Line Number**: This feature can be found on line 27 in the 'battery.js' file.
+    * **Description**: This feature provides the store's service personnel with additional information on the battery life of the tablet so that they can recharge the tablet in a timely manner.
     * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
     * **Safari Compatibility Comments**: This feature is not compatible in this browser.
     * **Firefox Compatibility Comments**: This feature is not compatible in this browser.
@@ -213,18 +213,18 @@ Please see the deployment link above for the completion of this task. I implemen
     * **Firefox Compatibility Comments**: This feature is not compatible in this browser.
   * **Feature 4**: [Modernnizr](https://modernizr.com/), http://mobilehtml5.org/
     * **Code Line Number**: This feature can be found on line 3 in the 'modernizr-custom.js' file.
-    * **Description**: Modernizr is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in your user's browsers.
+    * **Description**: Modernizr is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in the user's browsers.
     * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
     * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
     * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
   * **Feature 5**: [Hammer.js](https://hammerjs.github.io/)
-    * **Code Line Number**: This feature can be found on line 6 in the 'hammer.min.js' file
+    * **Code Line Number**: This feature can be found on line 6 in the 'hammer.min.js' file.
     * **Description**: This feature adds touch capabilities to the form for enhanced interaction capabilities on touch-enabled mobile devices.
     * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
     * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
     * **Firefox Compatibility Comments**: This feature is fully compatible in this browser.
   * **Feature 6**: [Bootstrap Form Container](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
-    * **Code Line Number**: Line 26 in the 'index.html' file
+    * **Code Line Number**: This feature can be found on line 26 in the 'index.html' file
     * **Description**: This form collects in-store user feedback so that retailers can improve their customers' shopping experiences.
     * **Google Chrome Compatibility Comments**: This feature is fully compatible in this browser.
     * **Safari Compatibility Comments**: This feature is fully compatible in this browser.
