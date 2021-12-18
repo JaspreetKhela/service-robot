@@ -47,6 +47,8 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 
 <a name="story">
 
+**Note**: The course project work is located [here](#course-project-story). 	
+	
 2. **Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.**
 * The cloud-connected service robot that I would like to build will provide customers of a brick-and-mortar store the opportunity to provide customer experience feedback immediately after shopping at that store with benefit of receiving a monetary reward that is proportional to the size of their bills. Consequently, the store owners will  be able to receive immediate feedback from customers and directly follow-up on that feedback in-person, and the customers will be able to save money by reducing their bills by a non-trivial percentage (e.g. 10% off of their bills).
 * The service will be setup on a Zenbo robot's screen or a tablet computer in-store and can be downloaded as a native application on a user's smartphone through scanning a QR code at a point-of-sales machine (i.e. cash register). The application contains an HTML5 form that contains the following input fields:
@@ -62,7 +64,7 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 	* A "Submit" for submitting the form data and clearing the form
 	* A "Clear All" button for clearing the form
 * The form can be filled out prior to the customer checking out of the store so the cashier can ask follow-up questions about the customer's shopping experience and manually reduce the customer's bill on the point-of-sales machine. The content of the form can be saved locally to a Zenbo robot or a tablet/smartphone (e.g. using IndexedDB in Google Chrome) and/or to a database if there is an in-store internet connection (e.g. using MongoDB Atlas). The .txt file can then be imported into spreadsheet software such as Microsoft Excel to perform additional analysis on the data.
-* A future direction of development could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This stream of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience.
+* A future direction of development could be to have a Zenbo robot follow customers around the store so that it can directly answer any questions in real-time that customers may have regarding their shopping experience. This stream of real-time customer data can better elucidate the woes of a stores' customers and provide customers with a personal assistant to streamline their shopping experience. <a name=course-project-story>
 * The following additions were made for the [Course Project](#course-project):
   * The Zenbo robot would primarily be used to approach customers near the front of the store to address customers' questions/concerns about the store's products/services and to redirect customers to tablet computers at the front of the store to provide feedback on their shopping experience.
   * Sample robot dialogue with the customer would include the following:
