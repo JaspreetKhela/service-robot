@@ -47,9 +47,8 @@ Here is a screenshot of a locally-installed Android device emulator (in [Android
 
 <a name="story">
 
-**Note**: The course project work is located [here](#course-project-story). 	
-	
 2. **Referring to what we discuss in the online session, write a story about your social/service/cloud robot for the course project. Describe your story in 300-400 words.**
+**Note**: The course project work is located [here](#course-project-story).
 * The cloud-connected service robot that I would like to build will provide customers of a brick-and-mortar store the opportunity to provide customer experience feedback immediately after shopping at that store with benefit of receiving a monetary reward that is proportional to the size of their bills. Consequently, the store owners will  be able to receive immediate feedback from customers and directly follow-up on that feedback in-person, and the customers will be able to save money by reducing their bills by a non-trivial percentage (e.g. 10% off of their bills).
 * The service will be setup on a Zenbo robot's screen or a tablet computer in-store and can be downloaded as a native application on a user's smartphone through scanning a QR code at a point-of-sales machine (i.e. cash register). The application contains an HTML5 form that contains the following input fields:
 	* A text input field for a customer's first and last name
